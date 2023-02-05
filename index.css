@@ -47,19 +47,15 @@ footer{
   justify-content: space-between;
   background-color: #1b263b;
   border-radius: 25px;
-
-  border: #f725 solid;
 }
 
 .space-navbar nav{
   display: flex;
-  border: #3a0ca3 solid;
 }
 
 nav .navbar-list{
   display: flex;
   list-style: none;
-  border: #f72585 solid;
 }
 
 .navbar-list a{
@@ -73,6 +69,12 @@ nav .navbar-list{
 .button-start{
   padding: 1em;
   border-radius: 25px;
-  border: #f72585 solid;
+  background: linear-gradient(to left,#f72585, #4361ee);
+}
+
+.button-start a{
+  font-family: 'Hind', sans-serif;
+  color: #e0e1dd;
+  text-decoration: none;
 }
 
