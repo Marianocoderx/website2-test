@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@600&family=Oxygen:wght@300;700&family=Playfair+Display&family=Readex+Pro:wght@400;500;700&family=Righteous&display=swap');
 
 /*font-family: 'Anton', sans-serif;
 font-family: 'Covered By Your Grace', cursive;
@@ -11,5 +11,19 @@ font-family: 'Rubik Bubbles', cursive;*/
   box-sizing: border-box;
   border: 0vh;
   margin: 0%;
+}
+
+body{
+  height: 800px;
+  width: 100%;
+  padding: 3em;
+  background: linear-gradient(to left,#f72585,#7209b7,#3a0ca3,#4361ee);
+}
+
+.space-text{
+  height: 500px;
+  width: 80%;
+  border-radius: 25px;
+  background-color: #0d1b2a;
 }
 
