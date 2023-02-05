@@ -45,13 +45,34 @@ footer{
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   background-color: #1b263b;
   border-radius: 25px;
+
+  border: #f725 solid;
 }
 
-.navbar{
-  
+.space-navbar nav{
+  display: flex;
+  border: #3a0ca3 solid;
+}
+
+nav .navbar-list{
+  display: flex;
+  list-style: none;
+  border: #f72585 solid;
+}
+
+.navbar-list a{
+  font-family: 'Hind', sans-serif;
+  font-size: large;
+  text-decoration: none;
+  color: #e0e1dd;
+  padding-left: 25px;
+}
+
+.button-start{
+  padding: 1em;
+  border-radius: 25px;
   border: #f72585 solid;
 }
 
