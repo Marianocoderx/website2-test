@@ -78,3 +78,9 @@ nav .navbar-list{
   text-decoration: none;
 }
 
+.block1{
+  height: 400px;
+  width: 100%;
+  border-radius: 25px;
+  border: #f72585 solid;
+}
